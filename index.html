@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>school camp</title>
+     <link rel="stylesheet" href="style/style.css">
+     <link rel="stylesheet" href="style/bootstrap.css">
+</head>
+<body>
+
+     <div class="hero">Alavi school camp</div>
+
+     <form action="#">
+          <input type="text" id="getFullName" class="form-control" placeholder="fullname" aria-label="fullName" aria-describedby="addon-wrapping">
+
+          <br>
+
+          <input type="number" id="getNationalCode" class="form-control" placeholder="National Code" aria-label="nationalCode" aria-describedby="addon-wrapping">
+
+          <br>
+
+          <input type="number" id="getFatherNumber" class="form-control" placeholder="father number" aria-label="nationalCode" aria-describedby="addon-wrapping">
+
+          <br>
+
+          <input type="text" id="getUserName" class="form-control" placeholder="Username" aria-label="UserName" aria-describedby="addon-wrapping">
+
+          <br>
+
+          <input type="text" id="campName" class="form-control" placeholder="camp name" aria-label="campName" aria-describedby="addon-wrapping">
+
+          <br>
+
+          <button type="button" class="btn btn-info" id="saveData">save mE!</button>
+     </form>
+
+     <table id="table" class="table table-striped table-dark">
+          <tr id="tr">
+              <th id="tableFullName">fullname</th>
+              <th id="tableNationalCode">nationalCode</th>
+              <th id="tableFatherNumber">father number</th>
+              <th id="tableUserName">Username</th>
+              <th id="tableCampName">campName</th>
+          </tr>
+          <tr id="maketr"></tr>
+     </table>
+     
+
+     <script src="js/jquery.js"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>
